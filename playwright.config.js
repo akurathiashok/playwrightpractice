@@ -16,6 +16,8 @@ const config = defineConfig({
   use: {
     browsername: 'chromium',
     headless: false,
+    screenshot: 'only-on-failure',
+    trace: 'on-first-retry',
   },
 });
 module.exports = config;
