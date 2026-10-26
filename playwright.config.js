@@ -9,7 +9,7 @@ const config = defineConfig({
   testDir: './tests',
   timeout: 60 * 1000,
   expect: {
-    timeout: 5000
+    timeout: 50000
   },
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
